@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Karim HEMINA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            <span>Karim</span>
+        </div>
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars humburg" onclick="humburg()"></i>
+    </div>
+    <div class="dropdown">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+    </div>
+</nav>
+
+<section id="home">
+    <div class="main-container">
+        <div class="image" data-aos="zoom-in" data-aos-duration="1500">
+            <img src="landing.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left">Hello, I'm <span>Karim</span></h1>
+            <div class="typewriter">
+                I'm a
+                <span class="typewriter-text"></span>
+                <label for="">|</label>
+            </div>
+            <p>Passionate about crafting efficient software solutions, I specialize in backend development, AI integration, enterprise solutions, and project management. Whether it's optimizing workflows with Odoo, building robust Laravel applications, leading development teams, or diving into AI-driven automation, I bring creativity, strategic thinking, and precision to every project.</p>
+            <div class="social-links">
+                <a href="https://github.com/karimHemina" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/karimh16/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/karim.swe/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://scholar.google.com/citations?user=paaZ920AAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google-scholar"></i></a>
+            </div>
+            <div class="button">
+                <a href="#contact"><button>Contact me</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+            <div class="left">
+                <img src="main.png" alt=""/>
+            </div>
+            <div class="right">
+                <div class="topic">Software Engineering is My Passion</div>
+                <p>I’m a software engineer with a strong foundation in AI, ERP systems, and backend development. Currently pursuing a PhD in Artificial Intelligence, I specialize in designing scalable solutions, optimizing business processes, and leading efficient software solutions. With extensive experience in Odoo and Laravel, I develop and customize enterprise applications that enhance automation and streamline operations. My expertise extends beyond coding, as I also oversee software project execution, ensuring seamless collaboration, efficiency, and innovation.</p>
+                <div class="button">
+                    <a href="https://anae.dz/id/RRwZi89ce5OJkf5O47aI" target="_blank"><button>Auto-entrepreneur</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic">
+                    Soft and hard combination
+                </div>
+                <p data-aos="fade-right">Over the past five years, I’ve honed my technical and managerial skills to build scalable, high-performance applications. My expertise extends beyond coding—I also excel in project management, system architecture, and AI-driven automation.</p>
+                <div class="experience">
+                    <div class="num">5</div>
+                    <div class="exp">
+                        Years Of <br />
+                        Experience
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">Odoo</div>
+                    <div class="per"><img src="icons/odoo.svg" width="120px" alt="Odoo Logo"></div>
+                </div>
+
+                <div class="box">
+                    <div class="topic">Laravel</div>
+                    <div class="per"><i class="fa-brands fa-laravel"></i></div>
+                </div>
+
+                <div class="box">
+                    <div class="topic">Project Management</div>
+                    <div class="per"><i class="fa-solid fa-tasks"></i></div>
+                </div>
+
+                <div class="box">
+                    <div class="topic">Automation</div>
+                    <div class="per"><i class="fa-solid fa-robot"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <img src="icons/odoo.svg" alt="Odoo Logo">
+                </div>
+                <div class="topic">Odoo Integration and Customization</div>
+                <p>Unlock the full potential of Odoo with custom modules, workflow automation, and system integrations. Whether you're a startup or an enterprise, I design tailored ERP solutions to optimize business processes.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-brands fa-laravel"></i>
+                </div>
+                <div class="topic">Laravel backend development</div>
+                <p>Building high-performance, secure, and scalable web applications using Laravel. From RESTful APIs to full-stack solutions, I ensure optimized database management and clean, maintainable code.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="topic">Automating internal Process and communication</div>
+                <p>Improve efficiency by automating repetitive tasks, workflows, and internal communications using AI-driven and rule-based automation tools. Save time and reduce human error with intelligent automation.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="topic">Managing development teams</div>
+                <p>Leading and mentoring software development teams to deliver high-quality products. I provide strategic planning, agile methodologies, and technical oversight to ensure smooth project execution.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <div class="topic">AI Integrations and consulting</div>
+                <p>Integrating artificial intelligence into business solutions to enhance automation, data analytics, and decision-making. I provide AI strategy consulting, implementation, and optimization for various industries.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="content">
+        <div class="title">
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic">Have Any Project?</div>
+        </div>
+<!--        <div class="contact-form">-->
+<!--            <form id="contactForm">-->
+<!--                <label for="name">Your Name</label>-->
+<!--                <input type="text" id="name" name="name" required>-->
+
+<!--                <label for="email">Your Email</label>-->
+<!--                <input type="email" id="email" name="email" required>-->
+
+<!--                <label for="message">Message</label>-->
+<!--                <textarea id="message" name="message" rows="5" required></textarea>-->
+
+<!--                <button type="submit">Send Message</button>-->
+<!--            </form>-->
+<!--        </div>-->
+        <div class="contact-form">
+            <a href="https://www.linkedin.com/in/karimh16/" target="_blank"><button>Contact me</button></a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="text">
+        <span>Created By
+        <a href="#">Karim HEMINA</a>
+            &#169;2025 All Rights Reserved
+        </span>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({offset:0});
+</script>
+<script src="script.js"></script>
+</body>
+</html>
